@@ -10,8 +10,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/qor/redirect_back"
-	"github.com/qor/session/manager"
+	"github.com/simonedbarber/redirect_back"
+	"github.com/simonedbarber/session/manager"
 )
 
 var RedirectBack = redirect_back.New(&redirect_back.Config{
